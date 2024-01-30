@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FutebolPrimeGestor.Domain", "FutebolPrimeGestor.Domain\FutebolPrimeGestor.Domain.csproj", "{916A8148-7243-40CC-A684-BD351EF31265}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FutebolPrimeGestor.Application", "FutebolPrimeGestor.Application\FutebolPrimeGestor.Application.csproj", "{544ADEF2-0AE5-4C48-AD0B-C008AEF99B04}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FutebolPrimeGestor.API", "FutebolPrimeGestor.API\FutebolPrimeGestor.API.csproj", "{C32B21A7-A2E9-4932-8688-7EB48A2CE048}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FutebolPrimeGestor.Infra.Data", "FutebolPrimeGestor.Infra.Data\FutebolPrimeGestor.Infra.Data.csproj", "{F0BF1ED4-8A1A-4F75-BD92-E55484DE9F48}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FutebolPrimeGestor.Infra.Ioc", "FutebolPrimeGestor.Infra.Ioc\FutebolPrimeGestor.Infra.Ioc.csproj", "{9DF0A17E-F7DF-401C-B8D7-ABDC0154B091}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{916A8148-7243-40CC-A684-BD351EF31265}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{916A8148-7243-40CC-A684-BD351EF31265}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{916A8148-7243-40CC-A684-BD351EF31265}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{916A8148-7243-40CC-A684-BD351EF31265}.Release|Any CPU.Build.0 = Release|Any CPU
+		{544ADEF2-0AE5-4C48-AD0B-C008AEF99B04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{544ADEF2-0AE5-4C48-AD0B-C008AEF99B04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{544ADEF2-0AE5-4C48-AD0B-C008AEF99B04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{544ADEF2-0AE5-4C48-AD0B-C008AEF99B04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C32B21A7-A2E9-4932-8688-7EB48A2CE048}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C32B21A7-A2E9-4932-8688-7EB48A2CE048}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C32B21A7-A2E9-4932-8688-7EB48A2CE048}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C32B21A7-A2E9-4932-8688-7EB48A2CE048}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0BF1ED4-8A1A-4F75-BD92-E55484DE9F48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0BF1ED4-8A1A-4F75-BD92-E55484DE9F48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0BF1ED4-8A1A-4F75-BD92-E55484DE9F48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0BF1ED4-8A1A-4F75-BD92-E55484DE9F48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DF0A17E-F7DF-401C-B8D7-ABDC0154B091}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DF0A17E-F7DF-401C-B8D7-ABDC0154B091}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DF0A17E-F7DF-401C-B8D7-ABDC0154B091}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DF0A17E-F7DF-401C-B8D7-ABDC0154B091}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A9CF5261-7A59-40FD-B550-762436E75C79}
+	EndGlobalSection
+EndGlobal
