@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace FutebolPrimeGestor.Domain.Entities
+﻿namespace FutebolPrimeGestor.Domain.Entities
 {
     public class Cliente : Entity
     {
@@ -18,7 +12,7 @@ namespace FutebolPrimeGestor.Domain.Entities
 
         public string? Nome { get; private set; }
         public string? CPF { get; private set; }
-        public string? Contato {  get; private set; }
+        public string? Contato { get; private set; }
 
         public List<AluguelDeQuadra> AlugueisDeQuadras { get; private set; }
     }
