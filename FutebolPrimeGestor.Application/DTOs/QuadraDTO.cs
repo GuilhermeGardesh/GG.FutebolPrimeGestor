@@ -1,11 +1,4 @@
-﻿using FutebolPrimeGestor.Domain.Entities;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace FutebolPrimeGestor.Application.DTOs
+﻿namespace FutebolPrimeGestor.Application.DTOs
 {
     public class QuadraDTO
     {
