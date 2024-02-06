@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace FutebolPrimeGestor.Infra.Data.Repositories
 {
-    internal class QuadraRepository : IQuadraRepository
+    public class QuadraRepository : IQuadraRepository
     {
         private readonly FutebolPrimeGestorDbContext _dbContext;
         public QuadraRepository(FutebolPrimeGestorDbContext dbContext)
