@@ -1,4 +1,5 @@
-﻿using FutebolPrimeGestor.Domain.Entities;
+﻿using FutebolPrimeGestor.Application.Mappings;
+using FutebolPrimeGestor.Domain.Entities;
 using FutebolPrimeGestor.Domain.Interfaces;
 using FutebolPrimeGestor.Infra.Data.Context;
 using FutebolPrimeGestor.Infra.Data.Repositories;
@@ -16,6 +17,9 @@ namespace FutebolPrimeGestor.Infra.Ioc
             {
                 options.UseSqlServer(configuration.GetConnectionString("DefaultConnection"), x => x.MigrationsAssembly(typeof(FutebolPrimeGestorDbContext).Assembly.FullName));
             });
+
+            //AutoMapper
+            services.AddAutoMapper(typeof(DomainToDTOMapping));
 
             //REPOSITORIES
             services.AddScoped<IClienteRepository, ClienteRepository>();

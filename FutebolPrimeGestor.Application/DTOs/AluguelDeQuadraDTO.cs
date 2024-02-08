@@ -1,6 +1,6 @@
 ﻿namespace FutebolPrimeGestor.Application.DTOs
 {
-    internal class AluguelDeQuadraDTO
+    public class AluguelDeQuadraDTO
     {
         public Guid Id { get; private set; }
         public Guid IdCliente { get; private set; }
